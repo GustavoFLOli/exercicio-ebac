@@ -1,14 +1,14 @@
-# exercicio-ebac
-Exercício de Git - EBAC
+## exercicio-ebac
+Exercício de Git da EBAC - Gráfico do preço da gasolina
 
-##Gráfico de Preço da Gasolina
+## Gráfico de Preço da Gasolina
 Este projeto gera um gráfico de linha mostrando a variação do preço da gasolina ao longo de um período de dias, utilizando dados fornecidos em um arquivo CSV. O gráfico é gerado usando as bibliotecas pandas e seaborn e é salvo em um arquivo PNG.
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 gasolina.csv: Arquivo CSV contendo os dados de preço da gasolina por dia.
 gasolina.py: Script Python que lê os dados do CSV, gera o gráfico de linha e salva o gráfico como um arquivo PNG.
 
-##Estrutura do Arquivo CSV
+## Estrutura do Arquivo CSV
 O arquivo gasolina.csv deve ter a seguinte estrutura:
 
 ```csv 
@@ -25,7 +25,7 @@ dia,venda
 10,5.03
 ```
 
-##Dependências
+## Dependências
 
 ### Pandas
 
@@ -41,7 +41,7 @@ Você pode instalar essas dependências usando pip:
 pip install pandas seaborn 
 ```
 
-##Executando o Projeto
+## Executando o Projeto
 
 1. Certifique-se de ter o Python instalado em sua máquina.
 
